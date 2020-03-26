@@ -1,0 +1,38 @@
+create database modelos2;
+use modelos2;
+
+CREATE TABLE `puntajes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `usuario` varchar(100) NOT NULL,
+  `puntaje` int(10) NOT NULL,
+  `juego` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `juegos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombreJuego` varchar(100) NOT NULL,
+  `veces` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(100) NOT NULL,
+  `apellido` varchar(100) NOT NULL,
+  `usuario` varchar(100) NOT NULL,
+  `pass` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `modelos2`.`usuarios` VALUES ('1', 'Daniel', 'Rubiano', 'rubianodaniel', '12345');
+INSERT INTO `modelos2`.`usuarios` VALUES ('2', 'Andrea', 'Gomez', 'gomezandrea', '12345');
+INSERT INTO `modelos2`.`usuarios` VALUES ('3', 'Alejandro', 'Ortiz', 'ortizalejandro', '12345');
+
+INSERT INTO `modelos2`.`juegos` VALUES ('1', '2048', '0');
+INSERT INTO `modelos2`.`juegos` VALUES ('2', 'La Llorona', '0');
+INSERT INTO `modelos2`.`juegos` VALUES ('3', 'Busca Flores', '0');
+INSERT INTO `modelos2`.`juegos` VALUES ('4', 'Caza Calaveras', '0');
+INSERT INTO `modelos2`.`juegos` VALUES ('5', 'Covid Runner', '0');
+INSERT INTO `modelos2`.`juegos` VALUES ('6', 'Palomas', '0');
+INSERT INTO `modelos2`.`juegos` VALUES ('7', 'Saltarin', '0');
