@@ -36,3 +36,4 @@ INSERT INTO `modelos2`.`juegos` VALUES ('4', 'Caza Calaveras', '0');
 INSERT INTO `modelos2`.`juegos` VALUES ('5', 'Covid Runner', '0');
 INSERT INTO `modelos2`.`juegos` VALUES ('6', 'Palomas', '0');
 INSERT INTO `modelos2`.`juegos` VALUES ('7', 'Saltarin', '0');
+INSERT INTO `modelos2`.`juegos` VALUES ('8', 'Ahorcado', '0');

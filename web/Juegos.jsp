@@ -60,7 +60,7 @@
                             <td><a href=<%=prueba%>><img src="Miniaturas/cazacalaveras.jpg" height="300" width="300"></a></td>
                         </tr>
                         <tr><td><a1>_</a1></td></tr>
-                        <tr><td>Covid 19</td><td>Palomas</td><td>Saltarin</td></tr>
+                    <tr><td>Covid 19</td><td>Palomas</td><td>Saltarin</td><td>Ahorcado</td></tr>
                         <tr><td><a1>_</a1></td></tr>
                         <tr>
                             <%prueba = "covidrunner.jsp" + url;%>
@@ -69,6 +69,8 @@
                             <td><a href=<%=prueba%>><img src="Miniaturas/palomas.jpg" height="300" width="300"></a></td>
                                     <%prueba = "saltarin.jsp" + url;%>
                             <td><a href=<%=prueba%>><img src="Miniaturas/saltarin.png" height="300" width="300"></a></td>
+                                    <%prueba = "ahorcado.jsp" + url;%>
+                            <td><a href=<%=prueba%>><img src="Miniaturas/ahorcado.png" height="300" width="300"></a></td>
                         </tr>
                     </table>
                 </h2>
